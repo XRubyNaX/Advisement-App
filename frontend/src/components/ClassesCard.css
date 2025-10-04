@@ -1,0 +1,29 @@
+.classes-grid{
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap:20px;
+}
+
+.class-card{
+    padding:20px;
+    border:3px solid #FFD046;
+    cursor:pointer;
+    transition:background-color 0.3s ease;
+    grid: 0 0 200px;
+    background-color: white;
+    color: text;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.class-card:hover{
+    background-color:#FFD046;
+}
+
+.class-card.selected{
+    background-color:#FFD046;
+    color:black;
+
+}

@@ -1,0 +1,15 @@
+.navbar {
+  width: 100%;              /* make it stretch across the screen */
+  height: 100px;             /* fixed height for the bar */
+  background-color: #FFD046;  /* gold */
+  display: flex;            /* use flexbox */
+  align-items: center;      /* center image vertically */
+  padding: 0 20px;          /* some space left/right */
+  position: fixed;          /* stick it to the top */
+  top: 0;                   /* at very top */
+  left: 0;
+}
+
+.logo {
+  height: 100px;             /* adjust logo size */
+}
